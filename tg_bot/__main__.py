@@ -22,6 +22,8 @@ hello {}, my name is {}!
 
 im a group manager bot maintained by  [this person](tg://user?id={}).
 
+You can also follow our channel @BookZonelibrary
+
 """
 
 HELP_STRINGS = """
@@ -136,7 +138,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("Thanks dude..Lub u")
+        update.effective_message.reply_text("Thanks dude..Lub u😘😘")
 
 
 # for test purposes
